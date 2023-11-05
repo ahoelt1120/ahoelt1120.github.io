@@ -1,0 +1,237 @@
+
+body{
+    margin: 0px;
+   
+}
+
+#logo{
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.navbar{
+    font-family: "Poppins";
+    background-color: #8ed072;
+    color:#56A625;
+    top: 0;
+    display: flex;
+    padding: 9px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 99%;
+}
+
+.navbar-links{
+    color:white;
+    flex: 1;
+}
+.navbar-links ul li{
+    color:white;
+    list-style: none;
+    display: inline-block;
+    font-weight: bolder;
+    padding: 10px 16px; 
+    padding-top: px;
+    position: relative;
+}
+
+.navbar-links ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.navbar-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    margin: auto;
+    display: block;
+    transition: 0.5s;
+    background: white;
+    
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    font-family: "Poppins";
+    background-color: #8ed072;
+    margin-top: 80px;
+    width: 100%;
+    height: 70vh;
+
+
+}
+
+#intro-text{
+    color: white;
+    font-size: 30px;
+    padding-left: 350px;
+    padding-top: 100px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.about{
+    font-family: "Poppins";
+    color:#8ed072;
+    margin-top: 50px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.about-text{
+    
+    background-color: #8ed072;
+    color: white;
+    border-radius: 4px;
+    font-size: 17px;
+    text-align: left;
+    margin: 100px;
+    margin-top: 40px;
+    padding: 75px;
+    padding-top:30px;
+    padding-bottom:30px;
+    
+    
+}
+.about-text h2{
+    font-family:"Poppins";
+
+}
+
+.about-text p{
+    font-family: "Helvetica Neue","Arial","sans-serif";;
+}
+
+.about-text li{
+    font-family: "Helvetica Neue","Arial","sans-serif";
+}
+
+#about-me{
+    padding-bottom: 15px;
+}
+
+#resume{
+    padding-bottom: 50px;
+}
+
+#portfolio{
+    padding-bottom: 60px;
+}
+
+.resume{
+    background-color: #8ed072;
+    font-family: "Poppins";
+    color:white;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#resume-pic{
+    width: 800px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+.portfolio{
+    font-family: "Poppins";
+    color:#8ed072;
+    margin: 30px;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.portfolio p{
+    font-size: 20px;
+}
+
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    
+  }
+  
+  .double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
+  }
+  
+  .blue-column {
+    background-color: #8ed072;
+    height: 350px;
+    padding: 30px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    text-align: center;
+    color: white;
+  }
+  
+  .green-column {
+      height: 350px;
+      background-color: #8ed072;
+      padding: 30px;
+      margin-left: 50px;
+      margin-right: 300px;
+      margin-bottom: 50px;
+      text-align: center;
+      color: white;
+  }
+
+#contagion-pic{
+    height: 300px;
+    width: 300px;
+}
+
+#twenty-pic{
+    height: 300px;
+    width: 300px;
+}
+
+#deque-pic{
+    height: 300px;
+    width: 300px;
+}
+
+#hashtable{
+    height: 300px;
+    width: 300px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*
+background-image: linear-gradient(to right, lightgreen , yellowgreen);
+background-image: linear-gradient(to right, #b6f590 , #56A625);;
+"Sanchez"
+
+*/
+
