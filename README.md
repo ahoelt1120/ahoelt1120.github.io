@@ -2,6 +2,7 @@
 I added GitHub Pages functionality to the files. 
 
 To deploy the web page to GitHub Pages, first follow the instructions below by mshuber1981.
+
 Then run this command in the terminal: npm run deploy
 
 # Start of mshuber1981's Instructions: A React Portfolio Template for GitHub
