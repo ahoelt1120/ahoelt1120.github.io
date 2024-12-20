@@ -1,5 +1,5 @@
 # This Webpage was Created from a Template by GitHub User mshuber1981
-I added GitHub Pages functionality to the files. 
+I added GitHub Pages functionality to the project. 
 
 To deploy the web page to GitHub Pages, first follow the instructions below by mshuber1981.
 
